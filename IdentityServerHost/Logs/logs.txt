@@ -1,0 +1,790 @@
+2019-04-23 21:48:34.101 +08:00 [INF] Starting web host.
+2019-04-23 21:48:39.155 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-23 21:48:39.234 +08:00 [INF] Loaded modules:
+2019-04-23 21:48:39.234 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-04-23 21:48:39.235 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-04-23 21:48:39.235 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-04-23 21:48:39.235 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-04-23 21:48:39.235 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-04-23 21:48:39.235 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-04-23 21:48:39.236 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-04-23 21:48:39.236 +08:00 [INF] - IfcaIdentityServerHost.IdentityServerHostModule
+2019-04-23 21:48:39.276 +08:00 [DBG] No class found with auto mapping attributes.
+2019-04-23 21:48:40.088 +08:00 [DBG] Using idsrv as default scheme for authentication
+2019-04-23 21:48:40.089 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2019-04-23 21:48:40.089 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2019-04-23 21:48:40.089 +08:00 [DBG] Using idsrv as default scheme for challenge
+2019-04-23 21:48:40.089 +08:00 [DBG] Using idsrv as default scheme for forbid
+2019-04-23 21:48:41.890 +08:00 [INF] Initialized all modules.
+2019-04-23 21:48:42.745 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-04-23 21:48:43.241 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing action IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost)
+2019-04-23 21:48:43.296 +08:00 [INF] Executing action method IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost) - Validation state: "Valid"
+2019-04-23 21:48:43.301 +08:00 [INF] Executed action method IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7057ms.
+2019-04-23 21:48:43.336 +08:00 [INF] Executing ViewResult, running view Index.
+2019-04-23 21:48:43.428 +08:00 [INF] Executed ViewResult - view Index executed in 110.9872ms.
+2019-04-23 21:48:43.428 +08:00 [INF] Executed action IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost) in 186.5345ms
+2019-04-23 21:48:43.446 +08:00 [INF] Request finished in 704.7884ms 200 text/html; charset=utf-8
+2019-04-23 21:49:02.553 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration  
+2019-04-23 21:49:02.557 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-23 21:49:02.588 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-23 21:49:02.588 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-23 21:49:02.592 +08:00 [DBG] Start discovery request
+2019-04-23 21:49:02.901 +08:00 [INF] Request finished in 348.2564ms 200 application/json; charset=UTF-8
+2019-04-23 21:49:02.988 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration/jwks  
+2019-04-23 21:49:02.988 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-23 21:49:02.992 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-23 21:49:02.992 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-23 21:49:02.994 +08:00 [DBG] Start key discovery request
+2019-04-23 21:49:03.033 +08:00 [INF] Request finished in 44.8754ms 200 application/json; charset=UTF-8
+2019-04-23 21:49:03.098 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/connect/authorize?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0  
+2019-04-23 21:49:03.098 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-23 21:49:03.122 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-23 21:49:03.122 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-23 21:49:03.125 +08:00 [DBG] Start authorize request
+2019-04-23 21:49:03.132 +08:00 [DBG] No user present in authorize request
+2019-04-23 21:49:03.135 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 21:49:03.195 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:49:03.202 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 21:49:03.203 +08:00 [DBG] No PKCE used.
+2019-04-23 21:49:03.350 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 21:49:03.362 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "Mvc-Testclient",
+  "ClientName": "Mvc-Testclient",
+  "RedirectUri": "http://localhost:5002/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:5002/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile api1 api2 offline_access",
+  "State": "CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A",
+  "Nonce": "636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx",
+  "Raw": {
+    "client_id": "Mvc-Testclient",
+    "redirect_uri": "http://localhost:5002/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile api1 api2 offline_access",
+    "response_mode": "form_post",
+    "nonce": "636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx",
+    "state": "CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2019-04-23 21:49:03.369 +08:00 [INF] Showing login: User is not authenticated
+2019-04-23 21:49:03.374 +08:00 [INF] Request finished in 276.1546ms 302 
+2019-04-23 21:49:03.381 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0  
+2019-04-23 21:49:03.403 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 21:49:03.429 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0"]) - Validation state: "Valid"
+2019-04-23 21:49:06.475 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 21:49:06.494 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:49:06.495 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 21:49:06.495 +08:00 [DBG] No PKCE used.
+2019-04-23 21:49:06.533 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 21:49:06.556 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:49:06.560 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3130.7055ms.
+2019-04-23 21:49:06.578 +08:00 [INF] Executing ViewResult, running view Login.
+2019-04-23 21:49:06.663 +08:00 [INF] Executed ViewResult - view Login executed in 88.6366ms.
+2019-04-23 21:49:06.665 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 3261.8903ms
+2019-04-23 21:49:06.667 +08:00 [INF] Request finished in 3285.3981ms 200 text/html; charset=utf-8
+2019-04-23 21:50:04.272 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0 application/x-www-form-urlencoded 1079
+2019-04-23 21:50:04.286 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-23 21:50:04.296 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 21:50:04.326 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["IdentityServer4.Quickstart.UI.LoginInputModel","login"]) - Validation state: "Valid"
+2019-04-23 21:50:06.582 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 21:50:06.613 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:50:06.613 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 21:50:06.613 +08:00 [DBG] No PKCE used.
+2019-04-23 21:50:06.637 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 21:50:06.798 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-23 21:50:06.834 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "Quarrier-TestUser",
+  "SubjectId": "82fd6760-bff5-4219-25ee-39ed5bd8fac6",
+  "DisplayName": "Quarrier-TestUser",
+  "Endpoint": "UI",
+  "ActivityId": "0HLM7U9IPHCOO:00000001",
+  "TimeStamp": "2019-04-23T13:50:06Z",
+  "ProcessId": 47952,
+  "LocalIpAddress": "::1:5000",
+  "RemoteIpAddress": "::1"
+}
+2019-04-23 21:50:06.846 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:50:06.846 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2520.2612ms.
+2019-04-23 21:50:06.849 +08:00 [INF] Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0.
+2019-04-23 21:50:06.849 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 2552.6568ms
+2019-04-23 21:50:06.850 +08:00 [INF] Request finished in 2577.9619ms 302 
+2019-04-23 21:50:06.959 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0  
+2019-04-23 21:50:06.960 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-23 21:50:06.964 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-23 21:50:06.964 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-23 21:50:06.968 +08:00 [DBG] Start authorize callback request
+2019-04-23 21:50:06.971 +08:00 [DBG] No user present in authorize request
+2019-04-23 21:50:06.971 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 21:50:06.986 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:50:06.986 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 21:50:06.986 +08:00 [DBG] No PKCE used.
+2019-04-23 21:50:07.015 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 21:50:07.015 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "Mvc-Testclient",
+  "ClientName": "Mvc-Testclient",
+  "RedirectUri": "http://localhost:5002/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:5002/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile api1 api2 offline_access",
+  "State": "CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A",
+  "Nonce": "636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx",
+  "Raw": {
+    "client_id": "Mvc-Testclient",
+    "redirect_uri": "http://localhost:5002/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile api1 api2 offline_access",
+    "response_mode": "form_post",
+    "nonce": "636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx",
+    "state": "CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2019-04-23 21:50:07.015 +08:00 [INF] Showing login: User is not authenticated
+2019-04-23 21:50:07.016 +08:00 [INF] Request finished in 56.9619ms 302 
+2019-04-23 21:50:07.021 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0  
+2019-04-23 21:50:07.022 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 21:50:07.025 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916241430737084.YTgwZWZkZWQtY2ZmZS00NmYzLWIwM2UtODY5YTcyZmE1NTM5MjVkYWJkMDQtYTU2ZC00YTA3LTg3ZGQtYTE0ZWMxNjJmZTcx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndkoO7qk_KLOmqFWGb0QM-4-3Erm8iTxjPZL_NOuEMcu0Oop8nVZ42-5bAPXM3f84FEnFexmPunO-WFUDLwBwBkdLESFDdZCjaMM8bX0W3AblqUOjUoVhquwvNT3U-4Yv5Uq6FfciCkJYSrTS_KjM-dIQxXPAxBb8P-6uCsVGs3A0qVj90voEXwmLFpoPfACL1yS2yIJ2c1q2jyq0BjmAOEm-hK-mcJyYt7Iwvf3fSHMq-R5N4aDMeKAy8tWo70DtMy-LqRhfrXEbP6FwCNrODYRTek0rZmgaTuTtCIdqK_f2LiWvSUa3mlS5o9cGYS50A&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0"]) - Validation state: "Valid"
+2019-04-23 21:58:27.502 +08:00 [INF] Starting web host.
+2019-04-23 21:58:33.303 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-23 21:58:33.398 +08:00 [INF] Loaded modules:
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-04-23 21:58:33.398 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-04-23 21:58:33.398 +08:00 [INF] - IfcaIdentityServerHost.IdentityServerHostModule
+2019-04-23 21:58:33.440 +08:00 [DBG] No class found with auto mapping attributes.
+2019-04-23 21:58:34.278 +08:00 [DBG] Using idsrv as default scheme for authentication
+2019-04-23 21:58:34.278 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2019-04-23 21:58:34.278 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2019-04-23 21:58:34.278 +08:00 [DBG] Using idsrv as default scheme for challenge
+2019-04-23 21:58:34.278 +08:00 [DBG] Using idsrv as default scheme for forbid
+2019-04-23 21:58:36.004 +08:00 [INF] Initialized all modules.
+2019-04-23 21:58:37.271 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-04-23 21:58:37.672 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing action IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost)
+2019-04-23 21:58:37.747 +08:00 [INF] Executing action method IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost) - Validation state: "Valid"
+2019-04-23 21:58:37.757 +08:00 [INF] Executed action method IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.4217ms.
+2019-04-23 21:58:37.794 +08:00 [INF] Executing ViewResult, running view Index.
+2019-04-23 21:58:37.961 +08:00 [INF] Executed ViewResult - view Index executed in 185.14360000000002ms.
+2019-04-23 21:58:37.962 +08:00 [INF] Executed action IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost) in 289.78000000000003ms
+2019-04-23 21:58:37.972 +08:00 [INF] Request finished in 705.8793ms 200 text/html; charset=utf-8
+2019-04-23 21:59:10.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration  
+2019-04-23 21:59:10.586 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-23 21:59:10.626 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-23 21:59:10.626 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-23 21:59:10.629 +08:00 [DBG] Start discovery request
+2019-04-23 21:59:10.960 +08:00 [INF] Request finished in 378.3936ms 200 application/json; charset=UTF-8
+2019-04-23 21:59:11.046 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration/jwks  
+2019-04-23 21:59:11.046 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-23 21:59:11.050 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-23 21:59:11.050 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-23 21:59:11.052 +08:00 [DBG] Start key discovery request
+2019-04-23 21:59:11.096 +08:00 [INF] Request finished in 49.8805ms 200 application/json; charset=UTF-8
+2019-04-23 21:59:11.185 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/connect/authorize?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0&state=CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0  
+2019-04-23 21:59:11.186 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-23 21:59:11.208 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-23 21:59:11.209 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-23 21:59:11.211 +08:00 [DBG] Start authorize request
+2019-04-23 21:59:11.218 +08:00 [DBG] No user present in authorize request
+2019-04-23 21:59:11.222 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 21:59:11.288 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:59:11.296 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 21:59:11.297 +08:00 [DBG] No PKCE used.
+2019-04-23 21:59:11.491 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 21:59:11.504 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "Mvc-Testclient",
+  "ClientName": "Mvc-Testclient",
+  "RedirectUri": "http://localhost:5002/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:5002/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile api1 api2 offline_access",
+  "State": "CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8",
+  "Nonce": "636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0",
+  "Raw": {
+    "client_id": "Mvc-Testclient",
+    "redirect_uri": "http://localhost:5002/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile api1 api2 offline_access",
+    "response_mode": "form_post",
+    "nonce": "636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0",
+    "state": "CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2019-04-23 21:59:11.510 +08:00 [INF] Showing login: User is not authenticated
+2019-04-23 21:59:11.517 +08:00 [INF] Request finished in 331.8495ms 302 
+2019-04-23 21:59:11.524 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0  
+2019-04-23 21:59:11.550 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 21:59:11.572 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0&state=CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0"]) - Validation state: "Valid"
+2019-04-23 21:59:18.091 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 21:59:18.108 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:59:18.108 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 21:59:18.108 +08:00 [DBG] No PKCE used.
+2019-04-23 21:59:18.141 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 21:59:18.159 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 21:59:18.163 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6590.376ms.
+2019-04-23 21:59:18.176 +08:00 [INF] Executing ViewResult, running view Login.
+2019-04-23 21:59:18.237 +08:00 [INF] Executed ViewResult - view Login executed in 63.9671ms.
+2019-04-23 21:59:18.239 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 6689.127ms
+2019-04-23 21:59:18.240 +08:00 [INF] Request finished in 6715.8089ms 200 text/html; charset=utf-8
+2019-04-23 22:00:33.982 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0  
+2019-04-23 22:00:33.983 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 22:00:33.987 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0&state=CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0"]) - Validation state: "Valid"
+2019-04-23 22:00:33.988 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:00:34.015 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:00:34.015 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:00:34.015 +08:00 [DBG] No PKCE used.
+2019-04-23 22:00:34.048 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:00:34.062 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:00:34.062 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 74.2466ms.
+2019-04-23 22:00:34.063 +08:00 [INF] Executing ViewResult, running view Login.
+2019-04-23 22:00:34.066 +08:00 [INF] Executed ViewResult - view Login executed in 3.5183ms.
+2019-04-23 22:00:34.067 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 83.50160000000001ms
+2019-04-23 22:00:34.067 +08:00 [INF] Request finished in 85.004ms 200 text/html; charset=utf-8
+2019-04-23 22:00:34.097 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2019-04-23 22:00:34.099 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2019-04-23 22:00:34.101 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2019-04-23 22:00:34.103 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2019-04-23 22:00:34.171 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\css\site.css'
+2019-04-23 22:00:34.171 +08:00 [INF] Sending file. Request path: '/icon.png'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\icon.png'
+2019-04-23 22:00:34.171 +08:00 [INF] Request finished in 70.6844ms 200 image/png
+2019-04-23 22:00:34.171 +08:00 [INF] Request finished in 72.0337ms 200 text/css
+2019-04-23 22:00:34.177 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\lib\bootstrap\css\bootstrap.css'
+2019-04-23 22:00:34.178 +08:00 [INF] Request finished in 80.6576ms 200 text/css
+2019-04-23 22:00:34.199 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2019-04-23 22:00:34.256 +08:00 [INF] Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\lib\jquery\jquery.js'
+2019-04-23 22:00:34.256 +08:00 [INF] Request finished in 153.1324ms 200 application/javascript
+2019-04-23 22:00:34.348 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\lib\bootstrap\js\bootstrap.js'
+2019-04-23 22:00:34.348 +08:00 [INF] Request finished in 149.0021ms 200 application/javascript
+2019-04-23 22:00:34.655 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2019-04-23 22:00:34.678 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\favicon.ico'
+2019-04-23 22:00:34.678 +08:00 [INF] Request finished in 23.0703ms 200 image/x-icon
+2019-04-23 22:01:01.524 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0 application/x-www-form-urlencoded 1079
+2019-04-23 22:01:01.535 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-23 22:01:01.542 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 22:01:01.576 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["IdentityServer4.Quickstart.UI.LoginInputModel","login"]) - Validation state: "Valid"
+2019-04-23 22:01:03.301 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:01:03.322 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:01:03.322 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:01:03.322 +08:00 [DBG] No PKCE used.
+2019-04-23 22:01:03.347 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:01:03.515 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-23 22:01:03.552 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "Quarrier-TestUser",
+  "SubjectId": "82fd6760-bff5-4219-25ee-39ed5bd8fac6",
+  "DisplayName": "Quarrier-TestUser",
+  "Endpoint": "UI",
+  "ActivityId": "0HLM7UF3TMAU2:00000005",
+  "TimeStamp": "2019-04-23T14:01:03Z",
+  "ProcessId": 14940,
+  "LocalIpAddress": "::1:5000",
+  "RemoteIpAddress": "::1"
+}
+2019-04-23 22:01:03.565 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:01:03.565 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1989.0768ms.
+2019-04-23 22:01:03.568 +08:00 [INF] Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0&state=CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0.
+2019-04-23 22:01:03.568 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 2025.6402ms
+2019-04-23 22:01:03.569 +08:00 [INF] Request finished in 2044.92ms 302 
+2019-04-23 22:01:03.576 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0&state=CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0  
+2019-04-23 22:01:03.577 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-23 22:01:03.581 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-23 22:01:03.581 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-23 22:01:03.586 +08:00 [DBG] Start authorize callback request
+2019-04-23 22:01:03.589 +08:00 [DBG] No user present in authorize request
+2019-04-23 22:01:03.589 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:01:03.604 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:01:03.604 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:01:03.604 +08:00 [DBG] No PKCE used.
+2019-04-23 22:01:03.628 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:01:03.628 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "Mvc-Testclient",
+  "ClientName": "Mvc-Testclient",
+  "RedirectUri": "http://localhost:5002/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:5002/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile api1 api2 offline_access",
+  "State": "CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8",
+  "Nonce": "636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0",
+  "Raw": {
+    "client_id": "Mvc-Testclient",
+    "redirect_uri": "http://localhost:5002/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile api1 api2 offline_access",
+    "response_mode": "form_post",
+    "nonce": "636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0",
+    "state": "CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2019-04-23 22:01:03.628 +08:00 [INF] Showing login: User is not authenticated
+2019-04-23 22:01:03.629 +08:00 [INF] Request finished in 52.9331ms 302 
+2019-04-23 22:01:03.634 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0  
+2019-04-23 22:01:03.634 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 22:01:03.637 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916247511347899.OGMyOTY4ZjctNTRiNi00ZGI2LTk2OTYtYjYyOGJmN2ZmMzVmMWNiZTMzZDMtOWNiMC00NWZjLTkzNjUtOGM5MzA4MjdmNjc0&state=CfDJ8FO3MMSAAqxJvl2_YhgYlnceoeMfNUtL908y6geostsm6GscSRQjqHKTvlJD9ct9rdH5HfEMJbefwDlR-qEoF3kvczB6VigaqVnzFpkwbl2hypN-gW94kQunRS1Uvq69py3MMpqJ-KtVxkCic2YWV17RETTSMGBDSO07FrziEEebDH7N1_j_R8nLd_b4FVBp8-KNUX0OzX4d0OGFMMi_jRWtiC2kYcqSDu8nnyfXGepGoknzzxvIWljWbgo-NzYyIO5-fd0ee77y5MV4L4y4s8BVadzwdGVIsxn_X1jx-j91QIZ6V30tk1IpAebVsSjURCN4cXr5CgKj6oO6_e1Jkj8&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0"]) - Validation state: "Valid"
+2019-04-23 22:01:03.637 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:01:03.653 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:01:03.653 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:01:03.653 +08:00 [DBG] No PKCE used.
+2019-04-23 22:01:03.684 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:01:03.702 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:01:03.702 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 64.4778ms.
+2019-04-23 22:01:03.704 +08:00 [INF] Executing ViewResult, running view Login.
+2019-04-23 22:01:03.706 +08:00 [INF] Executed ViewResult - view Login executed in 1.9591ms.
+2019-04-23 22:01:03.706 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 71.2535ms
+2019-04-23 22:01:03.706 +08:00 [INF] Request finished in 72.0558ms 200 text/html; charset=utf-8
+2019-04-23 22:01:46.232 +08:00 [INF] Starting web host.
+2019-04-23 22:01:51.391 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-23 22:01:51.477 +08:00 [INF] Loaded modules:
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-04-23 22:01:51.477 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-04-23 22:01:51.477 +08:00 [INF] - IfcaIdentityServerHost.IdentityServerHostModule
+2019-04-23 22:01:51.525 +08:00 [DBG] No class found with auto mapping attributes.
+2019-04-23 22:01:52.334 +08:00 [DBG] Using idsrv as default scheme for authentication
+2019-04-23 22:01:52.334 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2019-04-23 22:01:52.334 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2019-04-23 22:01:52.334 +08:00 [DBG] Using idsrv as default scheme for challenge
+2019-04-23 22:01:52.334 +08:00 [DBG] Using idsrv as default scheme for forbid
+2019-04-23 22:01:54.105 +08:00 [INF] Initialized all modules.
+2019-04-23 22:01:55.015 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-04-23 22:01:55.529 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing action IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost)
+2019-04-23 22:01:55.588 +08:00 [INF] Executing action method IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost) - Validation state: "Valid"
+2019-04-23 22:01:55.596 +08:00 [INF] Executed action method IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0999ms.
+2019-04-23 22:01:55.632 +08:00 [INF] Executing ViewResult, running view Index.
+2019-04-23 22:01:55.749 +08:00 [INF] Executed ViewResult - view Index executed in 134.2784ms.
+2019-04-23 22:01:55.749 +08:00 [INF] Executed action IfcaIdentityServerHost.Quickstart.Home.HomeController.Index (IfcaIdentityServerHost) in 219.1031ms
+2019-04-23 22:01:55.760 +08:00 [INF] Request finished in 752.5496ms 200 text/html; charset=utf-8
+2019-04-23 22:01:55.768 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2019-04-23 22:01:55.770 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2019-04-23 22:01:55.771 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2019-04-23 22:01:55.773 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2019-04-23 22:01:55.833 +08:00 [INF] Sending file. Request path: '/icon.png'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\icon.png'
+2019-04-23 22:01:55.833 +08:00 [INF] Sending file. Request path: '/icon.jpg'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\icon.jpg'
+2019-04-23 22:01:55.833 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\css\site.css'
+2019-04-23 22:01:55.834 +08:00 [INF] Request finished in 63.9863ms 200 text/css
+2019-04-23 22:01:55.834 +08:00 [INF] Request finished in 60.4824ms 200 image/jpeg
+2019-04-23 22:01:55.834 +08:00 [INF] Request finished in 62.6666ms 200 image/png
+2019-04-23 22:01:55.845 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\lib\bootstrap\css\bootstrap.css'
+2019-04-23 22:01:55.845 +08:00 [INF] Request finished in 77.67ms 200 text/css
+2019-04-23 22:01:55.897 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2019-04-23 22:01:55.898 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2019-04-23 22:01:55.908 +08:00 [INF] Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\lib\jquery\jquery.js'
+2019-04-23 22:01:55.908 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\lib\bootstrap\js\bootstrap.js'
+2019-04-23 22:01:55.908 +08:00 [INF] Request finished in 11.1265ms 200 application/javascript
+2019-04-23 22:01:55.908 +08:00 [INF] Request finished in 9.4667ms 200 application/javascript
+2019-04-23 22:01:56.310 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2019-04-23 22:01:56.311 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjectCodes\IFCA\IfcaIdentityServer\IdentityServerHost\wwwroot\favicon.ico'
+2019-04-23 22:01:56.311 +08:00 [INF] Request finished in 1.0429ms 200 image/x-icon
+2019-04-23 22:02:21.027 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration  
+2019-04-23 22:02:21.032 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-23 22:02:21.079 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-23 22:02:21.079 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-23 22:02:21.082 +08:00 [DBG] Start discovery request
+2019-04-23 22:02:21.414 +08:00 [INF] Request finished in 387.6356ms 200 application/json; charset=UTF-8
+2019-04-23 22:02:21.522 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/.well-known/openid-configuration/jwks  
+2019-04-23 22:02:21.523 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-23 22:02:21.526 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-23 22:02:21.526 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-23 22:02:21.529 +08:00 [DBG] Start key discovery request
+2019-04-23 22:02:21.574 +08:00 [INF] Request finished in 52.2032ms 200 application/json; charset=UTF-8
+2019-04-23 22:02:21.654 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/connect/authorize?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0  
+2019-04-23 22:02:21.655 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-23 22:02:21.685 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-23 22:02:21.685 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-23 22:02:21.688 +08:00 [DBG] Start authorize request
+2019-04-23 22:02:21.699 +08:00 [DBG] No user present in authorize request
+2019-04-23 22:02:21.704 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:02:21.765 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:21.773 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:02:21.774 +08:00 [DBG] No PKCE used.
+2019-04-23 22:02:21.966 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:02:21.978 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "Mvc-Testclient",
+  "ClientName": "Mvc-Testclient",
+  "RedirectUri": "http://localhost:5002/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:5002/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile api1 api2 offline_access",
+  "State": "CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI",
+  "Nonce": "636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx",
+  "Raw": {
+    "client_id": "Mvc-Testclient",
+    "redirect_uri": "http://localhost:5002/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile api1 api2 offline_access",
+    "response_mode": "form_post",
+    "nonce": "636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx",
+    "state": "CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2019-04-23 22:02:21.986 +08:00 [INF] Showing login: User is not authenticated
+2019-04-23 22:02:21.992 +08:00 [INF] Request finished in 337.5844ms 302 
+2019-04-23 22:02:21.999 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0  
+2019-04-23 22:02:22.016 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 22:02:22.039 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0"]) - Validation state: "Valid"
+2019-04-23 22:02:22.054 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:02:22.073 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:22.073 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:02:22.073 +08:00 [DBG] No PKCE used.
+2019-04-23 22:02:22.108 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:02:22.132 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:22.135 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 95.5233ms.
+2019-04-23 22:02:22.151 +08:00 [INF] Executing ViewResult, running view Login.
+2019-04-23 22:02:22.212 +08:00 [INF] Executed ViewResult - view Login executed in 65.07950000000001ms.
+2019-04-23 22:02:22.214 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 197.4626ms
+2019-04-23 22:02:22.215 +08:00 [INF] Request finished in 215.4592ms 200 text/html; charset=utf-8
+2019-04-23 22:02:49.442 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0 application/x-www-form-urlencoded 1079
+2019-04-23 22:02:49.451 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-23 22:02:49.463 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 22:02:49.498 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["IdentityServer4.Quickstart.UI.LoginInputModel","login"]) - Validation state: "Valid"
+2019-04-23 22:02:54.681 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:02:54.705 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:54.705 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:02:54.705 +08:00 [DBG] No PKCE used.
+2019-04-23 22:02:54.733 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:02:54.899 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-04-23 22:02:54.940 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "Quarrier-TestUser",
+  "SubjectId": "82fd6760-bff5-4219-25ee-39ed5bd8fac6",
+  "DisplayName": "Quarrier-TestUser",
+  "Endpoint": "UI",
+  "ActivityId": "0HLM7UGUSAG2T:00000005",
+  "TimeStamp": "2019-04-23T14:02:54Z",
+  "ProcessId": 38820,
+  "LocalIpAddress": "::1:5000",
+  "RemoteIpAddress": "::1"
+}
+2019-04-23 22:02:54.954 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:54.954 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 5455.6689000000006ms.
+2019-04-23 22:02:54.957 +08:00 [INF] Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0.
+2019-04-23 22:02:54.957 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 5493.9129ms
+2019-04-23 22:02:54.958 +08:00 [INF] Request finished in 5516.4803ms 302 
+2019-04-23 22:02:54.966 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0  
+2019-04-23 22:02:54.967 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-23 22:02:54.971 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-23 22:02:54.971 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-23 22:02:54.975 +08:00 [DBG] Start authorize callback request
+2019-04-23 22:02:54.978 +08:00 [DBG] No user present in authorize request
+2019-04-23 22:02:54.978 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:02:54.992 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:54.993 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:02:54.993 +08:00 [DBG] No PKCE used.
+2019-04-23 22:02:55.018 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:02:55.018 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "Mvc-Testclient",
+  "ClientName": "Mvc-Testclient",
+  "RedirectUri": "http://localhost:5002/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:5002/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile api1 api2 offline_access",
+  "State": "CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI",
+  "Nonce": "636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx",
+  "Raw": {
+    "client_id": "Mvc-Testclient",
+    "redirect_uri": "http://localhost:5002/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile api1 api2 offline_access",
+    "response_mode": "form_post",
+    "nonce": "636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx",
+    "state": "CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2019-04-23 22:02:55.018 +08:00 [INF] Showing login: User is not authenticated
+2019-04-23 22:02:55.019 +08:00 [INF] Request finished in 53.1956ms 302 
+2019-04-23 22:02:55.024 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DMvc-Testclient%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5002%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520api1%2520api2%2520offline_access%26response_mode%3Dform_post%26nonce%3D636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx%26state%3DCfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI%26x-client-SKU%3DID_NETSTANDARD1_4%26x-client-ver%3D5.2.0.0  
+2019-04-23 22:02:55.025 +08:00 [INF] Route matched with {action = "Login", controller = "Account", area = "", page = ""}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost)
+2019-04-23 22:02:55.027 +08:00 [INF] Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) with arguments (["/connect/authorize/callback?client_id=Mvc-Testclient&redirect_uri=http%3A%2F%2Flocalhost%3A5002%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20api1%20api2%20offline_access&response_mode=form_post&nonce=636916249416248772.MTNmMDg3ZTYtYjJhYS00YzdmLThhNTgtZDY5ZjY1MDIwNzQ5NDNlOTBmY2ItODc3MC00MGZiLWI0MGUtNDBmMDgxZjk5NDMx&state=CfDJ8FO3MMSAAqxJvl2_YhgYlndJm3IxCZ9qibbVFMFbipwsSYm-w6-lY8EyE1ibgkYmHdOugqQAzkyz-Ihwo132ePSTS22JjEnh7zVMPjUJTdoH8fWyl08VlQs6v8Y_Dq6vKT40ymouJi3HOrXOfIrd1SGd95JlVMCT3mE29pJkbq9eo4Yx1uYCjRwMtttUguXUz9i-4MRD7ec_i-ZnXsLTuHm-daqatcyNcPpvU3VSAJEsXIAGrjntO8wZ0nwFZG8FhvfWL-uJx_LRw5B72GRaSE_Somdb4Kg_h8PYpyOba2jm6H5ksn69VpAihifb8Gjd_UQ1LDX8MTz49u2aAl4ezZI&x-client-SKU=ID_NETSTANDARD1_4&x-client-ver=5.2.0.0"]) - Validation state: "Valid"
+2019-04-23 22:02:55.027 +08:00 [DBG] Start authorize request protocol validation
+2019-04-23 22:02:55.042 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:55.042 +08:00 [DBG] Checking for PKCE parameters
+2019-04-23 22:02:55.042 +08:00 [DBG] No PKCE used.
+2019-04-23 22:02:55.064 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-23 22:02:55.075 +08:00 [DBG] client configuration validation for client Mvc-Testclient succeeded.
+2019-04-23 22:02:55.075 +08:00 [INF] Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost), returned result Microsoft.AspNetCore.Mvc.ViewResult in 47.394800000000004ms.
+2019-04-23 22:02:55.076 +08:00 [INF] Executing ViewResult, running view Login.
+2019-04-23 22:02:55.078 +08:00 [INF] Executed ViewResult - view Login executed in 1.6567ms.
+2019-04-23 22:02:55.078 +08:00 [INF] Executed action IdentityServer4.Quickstart.UI.AccountController.Login (IfcaIdentityServerHost) in 52.9429ms
+2019-04-23 22:02:55.078 +08:00 [INF] Request finished in 53.7108ms 200 text/html; charset=utf-8
+2019-04-30 10:42:03.416 +08:00 [INF] Starting web host.
+2019-04-30 10:42:12.513 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-30 10:42:12.613 +08:00 [INF] Loaded modules:
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-04-30 10:42:12.613 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-04-30 10:42:12.614 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-04-30 10:42:12.614 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-04-30 10:42:12.614 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-04-30 10:42:12.614 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-04-30 10:42:12.614 +08:00 [INF] - IfcaIdentityServerHost.IdentityServerHostModule
+2019-04-30 10:42:12.689 +08:00 [DBG] No class found with auto mapping attributes.
+2019-04-30 11:08:58.384 +08:00 [INF] Starting web host.
+2019-04-30 12:36:32.485 +08:00 [INF] Starting web host.
+2019-04-30 12:36:39.070 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-30 12:36:39.196 +08:00 [INF] Loaded modules:
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-04-30 12:36:39.196 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-04-30 12:36:39.197 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-04-30 12:36:39.197 +08:00 [INF] - IfcaIdentityServerHost.IdentityServerHostModule
+2019-04-30 12:36:39.258 +08:00 [DBG] No class found with auto mapping attributes.
+2019-04-30 12:36:40.487 +08:00 [DBG] Using idsrv as default scheme for authentication
+2019-04-30 12:36:40.487 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2019-04-30 12:36:40.487 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2019-04-30 12:36:40.487 +08:00 [DBG] Using idsrv as default scheme for challenge
+2019-04-30 12:36:40.487 +08:00 [DBG] Using idsrv as default scheme for forbid
